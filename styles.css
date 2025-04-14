@@ -1,0 +1,168 @@
+/* Reset & base styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #ffa500;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 40px;
+}
+
+.login-button {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.login-button:hover {
+    background-color: #e69500;
+}
+
+/* Main Title */
+main h1 {
+    text-align: center;
+    margin: 2rem 0 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* Place info */
+.place-info {
+    background: white;
+    max-width: 800px;
+    margin: 0 auto 2rem;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.place-info p {
+    margin: 0.5rem 0;
+}
+
+/* Reviews section */
+.reviews {
+    max-width: 800px;
+    margin: 0 auto 2rem;
+}
+
+.reviews h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.review-card {
+    background: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+/* Add review form */
+.add-review {
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    background: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.add-review h2 {
+    margin-bottom: 1rem;
+}
+
+textarea,
+select {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.submit-btn {
+    margin-top: 1rem;
+    padding: 0.7rem 1.5rem;
+    background-color: #ffa500;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #e69500;
+}
+
+/* Footer */
+footer {
+    background-color: #ffa500;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+/*Place Cards*/
+.places {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.place-card, .review-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    width: 200px;
+    text-align: center;
+}
+
+.details-button, .add-review, .submit-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.details-button:hover, .add-review:hover, .submit-button:hover {
+    background-color: #218838;
+}
+header {
+    background-color: #ffa500;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    background-color: #ffa500;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HBnB Home Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src ="images/logo.png" class="logo" alt="...">
+            <nav>
+                <ul>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </nav>
+    </header>
+    <main>
+
+         <!--Filter-->
+         <div class="filter">
+            <label for="max-price">Max Price:</label>
+            <select id="max-price">
+                <option value="all">All</option>
+                <option value="100">€100</option>
+                <option value="150">€150</option>
+                <option value="200">€200</option>
+                </select>
+            </div>
+        <h1>Available Places to Stay</h1>
+        <p class="intro">Welcome to HBnB - find the perfect place for your next trip!</p>
+
+        <div class="place-container">
+        <div class="place-card">
+            <img src="images/house1.jpg" alt="Charming House" class="place-img">
+        <h2>Charming House</h2>
+        <p>Price-night:  100 €</p>
+        <a href="place.html" class="details-button">Details</a>
+        </div>
+
+        <div class="place-card">
+            <img src="images/house2.jpg" alt="Modern Apartment" class="place-img">
+            <h2>Modern Apartment</h2>
+            <p>Price per night: 150 €</p>
+            <a href="place.html" class="details-button">Details</a>
+        </div>
+
+        <div class="place-card">
+            <img src="images/house3.jpg" alt="Beach Bungalow" class="place-img">
+            <h2>Beach Bungalow</h2>
+            <p>Price per night: 200 €</p>
+            <a href="place.html" class="details-button">Details</a>
+            </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 HBnB. All rights reserved.</p>
+        </footer>
+</body>
+</html>
